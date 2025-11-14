@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+    <style>
+        /* body{ */
+            /* margin: 0px;
+            padding: 0px; */
+        /* }
+        html,*{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div{
+            width: 600px;
+            height: 500px;
+            background-color:crimson;
+            padding: 10px 20px 0px 30px;
+            border: 10px dashed #000;
+            margin:20px;
+        } */
+         div{
+            background-color:darkcyan;
+            width: 400px;
+            height: 500px;
+         }
+         body{
+            padding: 0;
+         }
+         html,*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         #main{
+            width: 940px;
+            height: 300px;
+            background-color:darkolivegreen;
+            border: 1px solid #F04;
+            margin: 0px auto;
+            display: flex;
+         }
+         .box{
+            width: 300px;
+            height: 300px;
+            background-color:darkorange;
+         }
+         .box:nth-child(2){
+            margin: 0 auto;
+         }
+         
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    <!-- </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa repellendus adipisci in praesentium vel, ipsum recusandae consequatur, vero exercitationem perspiciatis deleniti quo! Reiciendis nostrum eius perferendis soluta non, et porro?</p>
+    </div> -->
+    <!-- <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus veritatis cumque reiciendis unde, laboriosam asperiores dolorem? Ad similique placeat doloremque fugiat quis, odio quisquam dignissimos? Repellendus quia modi eius quos.</p>
+    </div>
+    <div>
+        <img src="./Image.jpg" alt="">
+    </div> -->
+</body>
+</html>
