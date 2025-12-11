@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Product Grid</title>
+<style>
+html,*{
+margin:0;
+padding:16px;
+box-sizing: border-box;
+font-size: 30px;
+background-color: #CCC;
+}
+.box{
+background-color: #CCC;
+height: 500px;
+border-radius: 8px;
+box-shadow: 0 4px;
+}
+@media screen and (max-width:600px){
+mzain{
+background-color: rgb(255, 255, 255);
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 10px;
+}
+}
+@media screen and (min-width:600px) and (max-width:1024px){
+main{
+background-color: ☐rgb(255, 255, 255);
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 10рх;
+}
+}
+p{
+font-size: 18px;
+}
+img{
+font-size: 25px;
+}
+</style>
+</head>
+<body>
+<h2 align="center">Responsive Product Grid</h2>
+<main>
+<div class="box" align="center">
+<img src="./Baseball bat.jpg" alt="Product1" height="300px" width="250px">
+<h3>BASEBALL  BAT</h3>
+<p>SOLID WOOD & POLISHED SURFACE WITH GOOD GRIP</p>
+<p><b>&#8377;999</b></p>
+</div>
+<div
+class="box" align="center">
+<img src="./Hair straightner.jpg" alt="Product2" height="300px" width="250px">
+<h3>HAIR STRAIGHTNER</h3>
+<p>HEAT RESISTANCE & EASY TO USE</p>
+<p><b>&#8377;17999</b></p>
+</div>
+<div class="box" align="center">
+<img src="./shoes.webp" alt="product3" height="250px" width="250px">
+<h3>SHOES</h3>
+<p>LIGHTWEIGHT AND COMFORTABLE.</p>
+<p><b>&#8377;5999</b></p>
+</div>
+<div class="box" align="center">
+<img src="./wall clock.avif" alt="product4" height="200px" width="250px">
+<h3>WALL CLOCK</h3>
+<p>GOOD METAL FRAME WITH PREMIUM QUALITY.</p>
+<p><b>&#8377;3999</b></p>
+</div>
+</main>
+</body>
+</html>
